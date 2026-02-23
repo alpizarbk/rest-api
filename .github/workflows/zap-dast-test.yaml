@@ -19,7 +19,7 @@ jobs:
 
       - name: run api
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run dev
 
       - name: ZAP Scan
